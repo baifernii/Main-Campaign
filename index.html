@@ -2,26 +2,16 @@
 <html lang="en">
 
 <head>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T88C1PJQK9"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MPC5T0W5Q"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', 'G-T88C1PJQK9');
+        gtag('config', 'G-2MPC5T0W5Q');
     </script>
-
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-T79GC6C');</script>
-    <!-- End Google Tag Manager -->
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -46,15 +36,32 @@
             background-color: rgb(107, 107, 107);
             height: 65px;
             position: relative;
-            top: 4px;
+            bottom: 4px;
+        }
 
+        @media only screen and (max-width:468px) {
+            .navigator {
+                width: 468px;
+            }
         }
 
         .img1 {
             position: absolute;
             left: 40px;
             top: 11px;
+            height: 45px;
+            width: 45px;
 
+        }
+
+        @media only screen and (max-width:468px) {
+            .img1 {
+                position: absolute;
+                left: 40px;
+                top: 13px;
+                height: 40px;
+                width: 40px;
+            }
         }
 
         .topicnav {
@@ -66,12 +73,34 @@
 
         }
 
+        @media only screen and (max-width:468px) {
+            .topicnav {
+                color: white;
+                position: absolute;
+                left: 25%;
+                top: 15px;
+                font-size: 20px;
+
+            }
+
+        }
+
         .container1 {
             background-color: #97c1a9;
             height: 780px;
             width: 100%;
             position: relative;
-            bottom: 95px;
+            bottom: 79px;
+        }
+
+        @media only screen and (max-width:468px) {
+            .container1 {
+                background-color: #97c1a9;
+                height: 800px;
+                width: 468px;
+                position: relative;
+                bottom: 31px;
+            }
         }
 
         .topicB {
@@ -86,6 +115,22 @@
             letter-spacing: 5px;
         }
 
+        @media only screen and (max-width:468px) {
+            .topicB {
+                width: 100%;
+                position: relative;
+                text-align: center;
+                font-size: 12px;
+                top: 90px;
+                line-height: 50px;
+                height: 200px;
+                color: whitesmoke;
+                letter-spacing: 5px;
+            }
+
+
+        }
+
         .social ul li {
             display: inline-block;
         }
@@ -96,6 +141,16 @@
             display: flex;
             justify-content: center;
             margin-bottom: 50px;
+        }
+
+        @media only screen and (max-width:468px) {
+            .social {
+                position: relative;
+                top: 70px;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 50px;
+            }
         }
 
         .second {
@@ -110,29 +165,62 @@
             bottom: 100px;
         }
 
+        @media only screen and (max-width:468px) {
+            .container1-5 {
+                width: 468px;
+                height: 400px;
+                background-color: white;
+                position: relative;
+                bottom: 100px;
+            }
+
+        }
+
         .container1-5 .mainTopic {
             position: relative;
             top: 260px;
         }
 
-        .container1-5 .mainTopic h2 {
-            width: 1050px;
-
+        @media only screen and (max-width:468px) {
+            .container1-5 .mainTopic {
+                position: relative;
+                top: 90px;
+            }
         }
+
 
         .container2 {
             width: 100%;
             height: 310px;
             background-color: rgb(245, 245, 245);
-            /* position: relative;
-            top: 210px; */
             position: relative;
             bottom: 100px;
+        }
+
+        @media only screen and (max-width:468px) {
+            .container2 {
+                width: 468px;
+
+            }
         }
 
         .container2 .mainTopic {
             position: relative;
             bottom: 28px;
+        }
+
+        @media only screen and (max-width:468px) {
+            .container2 .mainTopic {
+                position: relative;
+                top: 30px
+            }
+        }
+
+        @media only screen and (max-width:468px) {
+            .container2 .mainTopic .qoute {
+                position: relative;
+                top: 30px;
+            }
         }
 
         .subTopicB {
@@ -146,6 +234,19 @@
             font-style: italic;
         }
 
+        @media only screen and (max-width:468px) {
+            .subTopicB {
+                width: 100%;
+                position: relative;
+                text-align: center;
+                top: 50px;
+                font-size: 15px;
+                line-height: 20px;
+                color: whitesmoke;
+                font-style: italic;
+            }
+        }
+
         .mainTopic h2 {
             text-align: center;
             font-size: 40px;
@@ -155,13 +256,36 @@
 
         }
 
+        @media only screen and (max-width:468px) {
+            .mainTopic h2 {
+                text-align: center;
+                font-size: 15px;
+                position: relative;
+                top: 60px;
+                justify-content: center;
+                color: #315846;
+            }
+        }
+
         .mainTopic .h3 {
             text-align: center;
-            font-size: 30px;
+            font-size: 15px;
             position: relative;
             top: 50px;
             margin-bottom: 30px;
             color: black;
+        }
+
+        @media only screen and (max-width:468px) {
+            .mainTopic .h3 {
+                text-align: center;
+                font-size: 15px;
+                position: relative;
+                top: 50px;
+                margin-bottom: 30px;
+                color: black;
+
+            }
         }
 
         .p1 {
@@ -174,6 +298,17 @@
             margin-bottom: 50px;
         }
 
+        @media only screen and (max-width:468px) {
+            .p1 {
+                font-size: 10px;
+                letter-spacing: 0.5px;
+                width: 310px;
+                line-height: 10px;
+            }
+
+
+        }
+
         .qoute {
             position: relative;
             left: 48%;
@@ -181,18 +316,43 @@
             top: 80px;
         }
 
+        @media only screen and (max-width:468px) {
+            .qoute {
+                position: relative;
+                left: 45%;
+                width: 45px;
+                top: 20px;
+            }
+        }
+
         .container3 {
             width: 100%;
-            height: 500px;
-            /* position: relative;
-            top: 200px; */
+            height: 650px;
             position: relative;
             bottom: 120px;
+        }
+
+        @media only screen and (max-width:468px) {
+            .container3 {
+                height: 440px;
+                width: 468px;
+                position: relative;
+                bottom: 120px;
+                background-color: blueviolet;
+            }
         }
 
         .head3 {
             position: relative;
             top: 100px;
+        }
+
+
+        @media only screen and (max-width:468px) {
+            .head3 {
+                position: relative;
+                top: 70px;
+            }
         }
 
         .Protein-plant {
@@ -203,9 +363,22 @@
 
         }
 
+        @media only screen and (max-width:468px) {
+            .Protein-plant {
+                float: right;
+                width: 60px;
+                margin-top: 10px;
+                position: relative;
+                right: 20px;
+
+            }
+        }
+
         .con ul li {
             display: inline-block;
         }
+
+
 
         .con {
             display: flex;
@@ -215,11 +388,20 @@
 
         .container4 {
             width: 100%;
-            height: 780px;
+            height: 850px;
             background-color: #feb449;
-            /* position: relative;
-            top: 350px; */
+            position: relative;
+            bottom: 120px;
 
+        }
+
+        @media only screen and (max-width:468px) {
+            .container4 {
+                width: 468px;
+                position: relative;
+                bottom: 140px;
+                height: 500px;
+            }
         }
 
         .p2 {
@@ -233,17 +415,41 @@
 
         }
 
+        @media only screen and (max-width:468px) {
+            .p2 {
+                width: 310px;
+                font-size: 10px;
+                line-height: 11px;
+                position: relative;
+            }
+        }
+
         .topic4 {
             font-size: 30px;
             letter-spacing: 1px;
             margin-left: 290px;
-            display: flex;
-            flex-wrap: wrap;
+            /* display: flex;
+            flex-wrap: wrap; */
+        }
+
+        @media only screen and (max-width:468px) {
+            .topic4 {
+                font-size: 12px;
+                width: 300px;
+                position: relative;
+                right: 230px;
+                letter-spacing: 0.5px;
+            }
         }
 
         .head4 {
             position: relative;
-            top: 30px;
+            top: 65px;
+        }
+
+        .head4 {
+            position: relative;
+            top: 65px;
         }
 
         .content4 {
@@ -254,260 +460,495 @@
         .img4 {
             width: 800px;
             height: 400px;
-
             position: absolute;
             top: 150px;
             right: 240px;
         }
 
+
+
+        @media only screen and (max-width:468px) {
+            .img4 {
+                width: 300px;
+                height: 150px;
+                position: absolute;
+                top: 210px;
+                right: 100px;
+            }
+
+
+        }
+
         .container5 {
             width: 100%;
-            height: 630px;
+            height: 530px;
             /* position: relative;
             top: 350px; */
         }
 
-        .container6 {
-            width: 100%;
-            height: 340px;
-            background-color: rgb(245, 245, 245);
-            /* position: relative;
-            top: 200px; */
+        @media only screen and (max-width:468px) {
+            .container5 {
+                width: 468px;
+                position: relative;
+                bottom: 140px;
+                height: 450px;
+                /* background-color: blueviolet; */
+
+            }
         }
 
-        .container7 {
-            width: 100%;
-            height: 1100px;
-            background-color: #fed9b7;
-            /* position: relative;
-            top: 200px; */
-        }
-
-        .cc {
-            font-size: 20px;
-            width: 370px;
-            letter-spacing: 1px;
-            position: relative;
-            line-height: 35px;
-            color: #315846;
-        }
-
-        .group1 {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            position: relative;
-            top: 95px;
-
-        }
-
-        .item1 {
-            height: 340px;
-        }
-
-        .item2 {
-            height: 340px;
-            margin: 0 100px 0 100px;
-        }
-
-        .item3 {
-            width: 310px;
-            height: 340px;
-        }
-
-        .icon {
-            margin: 50px 0 20px;
-            width: 310px;
-        }
-
-        .detail {
-            width: 310px;
-            font-size: 20px;
-            letter-spacing: 1px;
-            line-height: 35px;
-            margin-bottom: 50px;
-            color: #315846;
-        }
-
-        .conclude {
-            position: relative;
-            top: 350px;
-            width: 800px;
-            font-size: 20px;
-            letter-spacing: 1px;
-            line-height: 35px;
-            margin-bottom: 50px;
-            text-align: center;
-        }
-
-        .container8 {
-            width: 100%;
-            height: 340px;
-            background-color: rgb(245, 245, 245);
-            position: relative;
-            top: 490px;
-        }
-
-        .container9 {
-            height: 800px;
-            width: 100%;
-            background-color: #feb449;
-            position: relative;
-            top: 150px;
-        }
-
-        .group2 {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            position: relative;
-            top: 130px;
-
-        }
-
-        .restuarant {
-            background-color: rgb(255, 255, 255);
-            width: 400px;
-            height: 520px;
-            text-align: center;
-
-        }
-
-        .shopee {
-            background-color: rgb(255, 255, 255);
-            width: 400px;
-            height: 520px;
-            margin: 0 100px 0 100px;
-            text-align: center;
-
-        }
-
-        .facebook {
-            background-color: rgb(255, 255, 255);
-            width: 400px;
-            height: 520px;
-            text-align: center;
-        }
-
-        .icon {
-            margin: 50px 0 20px;
-            width: 400px;
-            position: relative;
-            bottom: 50px;
-
-        }
-
-        .detail {
-            width: 320px;
+        .topic5 {
             font-size: 30px;
             letter-spacing: 1px;
-            line-height: 35px;
-            color: #315846;
+            margin-left: 290px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        @media only screen and (max-width:468px) {
+            .topic5 {
+                font-size: 12px;
+                width: 300px;
+                position: relative;
+                right: 230px;
+                letter-spacing: 0.5px;
+            }
+        }
+
+        .head5 {
             position: relative;
-            left: 10%;
-
+            bottom: 65px;
         }
 
-        .container10 {
-            background-color: #d4e6c4;
-            position: relative;
-            top: 100px;
-            height: 450px;
-            width: 100%;
+        @media only screen and (max-width:468px) {
+            .head5 {
+                position: relative;
+                top: 30px;
+            }
         }
 
-        .content10 {
-            text-align: center;
-            position: relative;
-            top: 140px;
-
+        .content5 {
+            display: flex;
+            flex-wrap: wrap;
         }
 
-        .content10 h2 {
-            font-size: 50px;
-        }
-
-        .button {
-            font-family: 'Mitr', sans-serif;
-            display: inline-block;
-            border: none;
-            color: #FFFFFF;
-            text-align: center;
-            font-size: 20px;
-            padding: 20px;
-            width: 200px;
-            transition: all 0.5s;
-            cursor: pointer;
-            margin: 5px;
-            border-radius: 30px;
-        }
-
-        .button span {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            transition: 0.5s;
-        }
-
-        .button span:after {
-            content: 'ที่นี่';
+        .img5 {
+            width: 800px;
+            height: 400px;
             position: absolute;
-            opacity: 0;
-            top: 0;
-            right: -20px;
-            transition: 01.5s;
-            color: #fed9b7;
+            top: 150px;
+            right: 240px;
         }
 
-        .button:hover span {
-            padding-right: 25px;
+        @media only screen and (max-width:468px) {
+            .img5 {
+                width: 300px;
+                height: 150px;
+                position: absolute;
+                top: 210px;
+                right: 100px;
+            }
         }
 
-        .button:hover span:after {
-            opacity: 1;
-            right: 0;
-        }
+            .container6 {
+                width: 100%;
+                height: 340px;
+                background-color: rgb(245, 245, 245);
+                /* position: relative;
+            top: 200px; */
+            }
 
-        .button {
-            background-color: #315846;
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
-        }
+            @media only screen and (max-width:468px) {
+            .container6 {
+                width: 468px;
+                height: 200px;
+                position: relative;
+                bottom: 150px;
+            }
 
-        .Shadow:hover {
-            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-        }
+            .container6 .mainTopic {
+                position: relative;
+                top: 20px;
+            }
 
-        .adjButt1 {
-            position: relative;
-            top: 80px;
-            background-color: #feb449;
-        }
+            }
+            
+            .container7 {
+                width: 100%;
+                height: 1100px;
+                background-color: #fed9b7;
+                /* position: relative;
+            top: 200px; */
+            }
 
-        .social a {
-            text-decoration: unset;
-        }
+            @media only screen and (max-width:468px) {
+            .container7 {
+                width: 468px;
+                position: relative;
+                bottom: 150px;
+                height:1550px ;
+            } }
+        
+
+            .cc1 {
+                font-size: 20px;
+                width: 370px;
+                letter-spacing: 1px;
+                position: relative;
+                line-height: 35px;
+                color: #315846;
+            }
+
+            .cc2 {
+                font-size: 20px;
+                width: 370px;
+                letter-spacing: 1px;
+                position: relative;
+                line-height: 35px;
+                color: #315846;
+            }
+
+            .cc3 {
+                font-size: 20px;
+                width: 370px;
+                letter-spacing: 1px;
+                position: relative;
+                line-height: 35px;
+                color: #315846;
+            }
+
+            @media only screen and (max-width:468px) {
+            .cc1 {
+                font-size: 12px;
+                letter-spacing: 0.5px;
+                line-height: 16px;
+                width: 200px;
+            } 
+
+            .cc2 {
+                font-size: 12px;
+                letter-spacing: 0.5px;
+                line-height: 16px;
+                width: 200px; 
+            }
+
+            .cc3 {
+                font-size: 12px;
+                letter-spacing: 0.5px;
+                line-height: 16px;
+                width: 200px;  
+            }
+            }
+
+            .group1 {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                position: relative;
+                top: 95px;
+            }
+
+            @media only screen and (max-width:468px) {
+            .group1 {
+                position: relative;
+                bottom: 500px; 
+            }
+            }
+
+            .item1 {
+                height: 340px;
+            }
+
+    
+            .item2 {
+                height: 340px;
+                margin: 0 100px 0 100px;
+            }
+
+            .item3 {
+                width: 310px;
+                height: 340px;
+            }
+
+            @media only screen and (max-width:468px) {
+            .item3 {
+                position: relative;
+                left: 60px; 
+            }
+            }
+
+            .icon1 {
+                margin: 50px 0 20px;
+                width: 310px;
+            }
+
+            .icon2 {
+                margin: 50px 0 20px;
+                width: 310px;
+            }
+
+            .icon3 {
+                margin: 50px 0 20px;
+                width: 310px;
+            }
+
+            @media only screen and (max-width:468px) {
+            .icon1 {
+                width: 200px;
+           
+            } 
+
+            .icon2 {
+                width: 200px;
+
+            }
+
+            .icon3 {
+                width: 200px;
+  
+            }
+            }
+        
+            .detail {
+                width: 310px;
+                font-size: 20px;
+                letter-spacing: 1px;
+                line-height: 35px;
+                margin-bottom: 50px;
+                color: #315846;
+            }
+
+
+            .conclude {
+                position: relative;
+                top: 350px;
+                width: 800px;
+                font-size: 20px;
+                letter-spacing: 1px;
+                line-height: 35px;
+                margin-bottom: 50px;
+                text-align: center;
+            }
+
+            @media only screen and (max-width:468px) {
+            .conclude p {
+                font-size: 14px;
+                letter-spacing: 1px;
+                line-height: 30px;
+                width: 80%;
+                position: relative;
+                left: 10%;
+                bottom: 250px;
+                margin-bottom: 0px;
+            } 
+            .conclude .q {
+                position: relative;
+                bottom: 245px;
+            }
+            }
+
+            .container8 {
+                width: 100%;
+                height: 340px;
+                background-color: rgb(245, 245, 245);
+                position: relative;
+                top: 490px;
+            }
+
+            @media only screen and (max-width:468px) {
+            .container8 {
+                width: 468px;
+                position: relative;
+                top: 240px;
+        
+            } 
+            .mainTopic {
+                position: relative;
+                top: 20px;
+            }
+
+            
+            }
+
+            .container9 {
+                height: 800px;
+                width: 100%;
+                background-color: #feb449;
+                position: relative;
+                top: 490px;
+            }
+
+            @media only screen and (max-width:468px) {
+            .container9 {
+                width: 468px;
+                position: relative;
+                top: 200px;
+
+            } }
+
+            .group2 {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                position: relative;
+                top: 130px;
+
+            }
+
+            .restuarant {
+                background-color: rgb(255, 255, 255);
+                width: 400px;
+                height: 520px;
+                text-align: center;
+
+            }
+
+            @media only screen and (max-width:468px) {
+            .restuarant {
+                margin-bottom: ;
+
+            } }
+
+            .shopee {
+                background-color: rgb(255, 255, 255);
+                width: 400px;
+                height: 520px;
+                margin: 0 100px 0 100px;
+                text-align: center;
+
+            }
+
+            .facebook {
+                background-color: rgb(255, 255, 255);
+                width: 400px;
+                height: 520px;
+                text-align: center;
+            }
+
+            .icon {
+                margin: 50px 0 20px;
+                width: 400px;
+                position: relative;
+                bottom: 50px;
+
+            }
+
+            .detail {
+                width: 320px;
+                font-size: 30px;
+                letter-spacing: 1px;
+                line-height: 35px;
+                color: #315846;
+                position: relative;
+                left: 10%;
+
+            }
+
+            .container10 {
+                background-color: #d4e6c4;
+                position: relative;
+                top: 100px;
+                height: 450px;
+                width: 100%;
+            }
+
+            @media only screen and (max-width:468px) {
+            .container10 {
+                width: 468px;
+
+            } }
+
+            .content10 {
+                text-align: center;
+                position: relative;
+                top: 140px;
+
+            }
+
+            .content10 h2 {
+                font-size: 50px;
+            }
+
+            .button {
+                font-family: 'Mitr', sans-serif;
+                display: inline-block;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 20px;
+                padding: 20px;
+                width: 200px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+                border-radius: 30px;
+            }
+
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+
+            .button span:after {
+                content: 'ที่นี่';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 01.5s;
+                color: #fed9b7;
+            }
+
+            .button:hover span {
+                padding-right: 25px;
+            }
+
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+
+            .button {
+                background-color: #315846;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                -webkit-transition-duration: 0.4s;
+                transition-duration: 0.4s;
+            }
+
+            .Shadow:hover {
+                box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            .adjButt1 {
+                position: relative;
+                top: 80px;
+                background-color: #feb449;
+            }
+
+            .social a {
+                text-decoration: unset;
+            }
     </style>
 </head>
 
 <body>
     <!-- Navigator Bar -->
     <div class="navigator">
-        <a href="https://baifernii.github.io/index/"><img class="img1" src="grilled-meat.png" alt="logo"
-                style="height: 45px; width: 45px;"></a>
+        <a href="https://baifernii.github.io/index/"><img class="img1" src="grilled-meat.png" alt="logo"></a>
         <div class="topicnav">#Shareplantbasedfood</div>
     </div>
 
-    คุณรู้หรือไม่
+
     <!-- Container1 -->
     <div class="container1">
         <div class="topicB">
@@ -547,6 +988,7 @@
             <img class="qoute" src="left-quote.png" alt="qoute-symbol">
             <center>
                 <h2>คุณรู้หรือไม่ การหันมากิน Plant-based food สำคัญอย่างไร
+                    <br>
                     กับสถานการณ์ Climate Change ของโลกเรา ?
                 </h2>
             </center>
@@ -599,8 +1041,6 @@
         <div class="head4">
             <div class="topic4">
                 <h3>Plant based food อาหารที่ดีต่อโลก</h3>
-                <img src="vegan.png" alt="icon-how-good-for-world"
-                    style="width: 50px; height: 50px; position: relative; top: 30px;">
             </div>
             <!-- Content4 -->
             <div class="content4">
@@ -615,21 +1055,19 @@
                     ปล่อยก๊าซคาร์บอนไดออกไซด์ออกมาเท่ากับการขับรถไปในระยะทาง 7.2 กิโลเมตร เท่านั้น ดังนั้นอาหารที่มี
                     การผลิตมาจากพืชเป็นหลักจึงมีผลกระทบต่อภาวะเรือนกระจกน้อยกว่านั่นเอง
                 </p>
-                <div class="borderImg4">
-                    <img class="img4" src="D-Tor-Lok.jpg" alt="how-good-for-world">
-                </div>
+
+                <img class="img4" src="D-Tor-Lok.jpg" alt="how-good-for-world">
+
             </div>
         </div>
     </div>
     <!-- Container5 -->
     <div class="container5">
-        <div class="head4">
-            <div class="topic4">
+        <div class="head5">
+            <div class="topic5">
                 <h3>Plant based food อาหารที่ดีต่อเรา</h3>
-                <img src="vegan.png" alt="icon-how-good-for-world"
-                    style="width: 50px; height: 50px; position: relative; top: 30px;">
             </div>
-            <div class="content4">
+            <div class="content5">
                 <p class="p2">อาหารประเภท พืช ผัก ผลไม้ และธัญพืช ซึ่งเป็นองค์ประกอบหลักของอาหาร Plant based food
                     อุดมไปด้วยสารอาหารมากมาย ไม่ว่าจะเป็น วิตามิน แร่ธาตุ ใยอาหาร และสารต้านอนุมูลอิสระ
                     มีงานวิจัยหลายชิ้นที่แสดงให้เห็นว่าการที่เรากินผัก ผลไม้ ธัญพืช เพิ่มขึ้น
@@ -637,9 +1075,9 @@
                     และโรคอื่น ๆ อีกมากมาย การเลือกกิน Plant based food บ้างในมื้ออาหาร
                     จึงเป็นการช่วยให้อาหารมื้อนั้นสมบูรณ์ และดีต่อสุขภาพของเรามากขึ้น
                 </p>
-                <div class="borderImg4">
-                    <img class="img4" src="D-Tor-Rao.jpg" alt="how-good-for-world">
-                </div>
+
+                <img class="img5" src="D-Tor-Rao.jpg" alt="how-good-for-world">
+
             </div>
         </div>
     </div>
@@ -655,31 +1093,31 @@
     <div class="container7">
         <div class="group1">
             <div class="item1">
-                <img class="icon" src="salad.png">
-                <div class="cc">ถ้าอาหาร Plant-based กลายเป็นที่นิยมขึ้นมา ผู้คนก็จะบริโภคเนื้อสัตว์น้อยลง
+                <img class="icon1" src="salad.png">
+                <div class="cc1">ถ้าอาหาร Plant-based กลายเป็นที่นิยมขึ้นมา ผู้คนก็จะบริโภคเนื้อสัตว์น้อยลง
                 </div>
             </div>
             <div class="item2">
-                <img class="icon" src="cow.png">
-                <div class="cc">เมื่อพวกเราบริโภคเนื้อสัตว์น้อยลง
+                <img class="icon2" src="cow.png">
+                <div class="cc2">เมื่อพวกเราบริโภคเนื้อสัตว์น้อยลง
                     จำนวนสัตว์ที่เลี้ยงในปศุสัตว์
                     ก็จะลดจำนวนลง
                 </div>
             </div>
             <div class="item3">
-                <img class="icon" src="environment.png">
-                <div class="cc">เมื่อจำนวนสัตว์ที่เลี้ยงในปศุสัตว์ลดลงก็จะลดการปล่อยก๊าซเรือนกระจก
+                <img class="icon3" src="environment.png">
+                <div class="cc3">เมื่อจำนวนสัตว์ที่เลี้ยงในปศุสัตว์ลดลงก็จะลดการปล่อยก๊าซเรือนกระจก
                     ส่งผลให้ชั้นบรรยาอากาศดีมากขึ้น
                 </div>
             </div>
 
             <div class="conclude">
-                <img src="white-left-quote.png" alt="left-quote" style="width: 45px;">
+                <img class = "q" src="white-left-quote.png" alt="left-quote" style="width: 45px;">
                 <p>ถ้าพวกเราหันมากินอาหาร Plant-based กันมากขึ้น
                     จะสามารถลดการปล่อยก๊าซเรือนกระจกลงได้
                     นอกจากนี้ยังทำให้ร่างกายของเรามีสุขภาพที่ดีอีกด้วย
                 </p>
-                <img src="white-left-quote.png" alt="right-quote" style="width: 45px;transform: rotate(180deg);">
+                <img class = "q" src="white-left-quote.png" alt="right-quote" style="width: 45px;transform: rotate(180deg);">
             </div>
         </div>
 
@@ -687,8 +1125,8 @@
         <div class="container8">
             <!-- MainTopic -->
             <div class="mainTopic">
-                <img class="qoute" src="left-quote.png" alt="qoute-symbol">
-                <h2>ถ้าคุณสนใจที่จะเริ่มทาน Plant-based food สามารถค้นหาร้านค้าได้ที่นี่</h2>
+                <img class="qoute q2" src="left-quote.png" alt="qoute-symbol">
+                <h2 class = "h22">ถ้าคุณสนใจที่จะเริ่มทาน Plant-based food สามารถค้นหาร้านค้าได้ที่นี่</h2>
             </div>
 
             <!-- Container9 -->
