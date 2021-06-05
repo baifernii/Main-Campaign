@@ -22,7 +22,7 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-T79GC6C');</script>
     <!-- End Google Tag Manager -->
-    
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,12 +45,13 @@
         body {
             margin: 0%;
             padding: 0%;
+            width: 100%;
             font-family: 'Mitr', sans-serif;
         }
 
 
         .navigator {
-            background-color: rgb(107, 107, 107);
+            background-color: #bc5750;
             height: 85px;
             position: relative;
             bottom: 21px;
@@ -59,7 +60,7 @@
 
         .img1 {
             position: absolute;
-            left: 40px;
+            left: 15%;
             top: 31px;
             height: 45px;
             width: 45px;
@@ -69,7 +70,7 @@
         @media only screen and (max-width:468px) {
             .img1 {
                 position: absolute;
-                left: 40px;
+                left: 10%;
                 top: 31px;
                 height: 35px;
                 width: 35px;
@@ -79,89 +80,35 @@
         }
 
         .topicnav {
-            color: white;
             position: absolute;
-            left: 43%;
-            top: 32px;
+            left: 41%;
+            top: 36px;
+            color: white;
             font-size: 25px;
-        }
 
+        }
 
         @media only screen and (max-width:468px) {
             .topicnav {
                 color: white;
                 position: absolute;
-                left: 30%;
+                left: 25%;
                 top: 36px;
-                font-size: 20px;
+                font-size: 15px;
             }
 
         }
-
-
 
         .container8 {
             height: 600px;
         }
 
-        .pp {
-            position: relative;
-            top: 80px;
-        }
-
-        .picShare {
-            position: relative;
-            top: 70px;
-            left: 37%;
-            width: 500px;
-            display: flex;
-            justify-content: center;
-            margin-top: 0px;
-            margin-bottom: 10px;
-        }
-
-        @media screen and (max-width: 468px) {
-            .picShare {
-                width: 65%;
-                height: 30%;
-                position: relative;
-                left: 18%;
-
-            }
-
-        }
-
-        .content8 {
-            display: flex;
-            justify-content: center;
-        }
-
-        .content8 p {
-            font-size: 20px;
-            letter-spacing: 1px;
-            position: relative;
-            top: 80px;
-            text-align: center;
-            width: 600px;
-            line-height: 35px;
-            margin-bottom: 70px;
-        }
-
         @media only screen and (max-width:468px) {
-            .content8 p {
-                font-size: 15px;
-                letter-spacing: 1px;
-                position: relative;
-                top: 80px;
-                text-align: center;
-                width: 600px;
-                line-height: 35px;
-                margin-bottom: 70px;
+            .container8 {
+                height: 300px;
             }
+
         }
-
-
-
 
         .container8 h2 {
             text-align: center;
@@ -173,101 +120,47 @@
 
         @media only screen and (max-width:468px) {
             .container8 h2 {
-                text-align: center;
-                font-size: 30px;
-                position: relative;
-                top: 60px;
-                color: #315846;
-
+                font-size: 20px;
             }
+
         }
 
-        .social ul li {
-            display: inline-block;
-        }
-
-        .social {
+        .picShare {
             position: relative;
-            top: 100px;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 50px;
+            bottom: 300px;
         }
 
-        .second {
-            margin: 0 50px 0 50px;
+        @media only screen and (max-width:468px) {
+            .picShare {
+                width: 75%;
+                position: relative;
+                bottom: 100px;
+            }
+
         }
 
-
-
-        .button {
-            font-family: 'Mitr', sans-serif;
-            display: inline-block;
-            border: none;
-            color: #FFFFFF;
+        .content8 p {
             text-align: center;
             font-size: 20px;
-            padding: 20px;
-            width: 200px;
-            transition: all 0.5s;
-            cursor: pointer;
-            margin: 5px;
-            border-radius: 30px;
-
-        }
-
-        .button span {
-            cursor: pointer;
-            display: inline-block;
             position: relative;
-            transition: 0.5s;
+            top: 60px;
+            letter-spacing: 1px;
         }
 
-        .button span:after {
-            content: 'มาก';
-            position: absolute;
-            opacity: 0;
-            top: 0;
-            right: -20px;
-            transition: 01.5s;
-            color: #315846;
-        }
+        @media only screen and (max-width:468px) {
+            .content8 p {
+                font-size: 17px;
+                position: relative;
+                top: 55px;
 
-        .button:hover span {
-            padding-right: 25px;
-        }
+            }
 
-        .button:hover span:after {
-            opacity: 1;
-            right: 0;
-        }
 
-        .button {
-            background-color: #feb449;
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
-
-        }
-
-        .Shadow:hover {
-            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
         }
 
         .container9 {
             width: 100%;
             height: 400px;
-            /* background-color: #d4e6c4; */
-            position: relative;
-
         }
 
         .content9 h2 {
@@ -276,9 +169,9 @@
 
         @media only screen and (max-width:468px) {
             .content9 h2 {
-                font-size: 25px;
-
+                font-size: 30px;
             }
+
 
         }
 
@@ -288,34 +181,21 @@
             top: 100px;
         }
 
-
         .setBut {
             display: flex;
             justify-content: center;
             position: relative;
             top: 100px;
         }
-
-        .content9 {
-            position: relative;
-            top: 20px;
-        }
-
-        @media screen and (min-width: 800px) and (max-width: 1200px) {
-            .topicnav {
-                font-size: 150px;
-            }
-        }
     </style>
 </head>
 
 <body>
-    <!-- Navigator Bar -->
+    <!-- navigator -->
     <div class="navigator">
         <a href="index.html"><img class="img1" src="grilled-meat.png" alt="logo"></a>
         <div class="topicnav">#Shareplantbasedfood</div>
     </div>
-
     <!-- container8 -->
     <div class="container8">
         <h2>ร่วมสนุกกับแคมเปญของเราง่าย ๆ</h2>
@@ -325,30 +205,32 @@
                 เพียงถ่ายรูปมื้ออาหารของคุณที่เป็น Plant-based
             </p>
         </div>
-
-        <img class="picShare" src="plant-based.jpg" alt="plant-based" width="500px">
-
-        <div class="content8">
-            <p>
-                พร้อมติดแฮชแท็ก <strong>#Shareplantbasedfood</strong> แล้วแชร์ลงใน Social media ของคุณเลย !
-            </p>
-
-
-        </div>
     </div>
-
+    <center>
+        <img class="picShare" src="plant-based.jpg" alt="plant-based" width="500px">
+    </center>
+    <div class="content8">
+        <p>
+            พร้อมติดแฮชแท็ก
+            <br>
+            <strong>#Shareplantbasedfood</strong>
+            แล้วแชร์ลงใน Social media ของคุณเลย !
+        </p>
+    </div>
     <!-- container9 -->
     <div class="container9">
         <div class="content9">
             <h2 id="output">แคมเปญของเราน่าสนใจสำหรับคุณหรือไม่</h2>
 
             <div class="setBut">
-                <button id = "submit" onclick="o()" type="submit" style="vertical-align:middle"
+                <button id="submit" onclick="o()" type="submit" style="vertical-align:middle"
                     value="นั่นเยี่ยมไปเลย ! แล้วอย่าลืมแชร์เมนู Plant-based food ของคุณด้วยล่ะ"><span>สนใจ</span></button>
             </div>
 
         </div>
     </div>
+    </div>
+
 </body>
 
 </html>
